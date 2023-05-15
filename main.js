@@ -18,3 +18,8 @@ const allChrs = upperCase + lowerCase + number + symbol;
         }
         passwordBox.value = password;
         }
+
+        function copiarPassword(){
+            passwordBox.select();
+            document.execCommand("copy");
+        }
